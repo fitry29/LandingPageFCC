@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans ', sans-serif;
+}
+hr{
+   border: none;
+   height: 0.1px;
+   background-color: rgb(0, 0, 0,0.1);
+}
+p{
+    color: rgb(77, 77, 77);
+}
+
+/* NAVIGATION BAR */
+#header-img{
+    height: 35px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#header{
+    background-color: #C3E1FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+#nav-bar{
+    position: fixed;
+    transform: translate(-50%, -200%);
+    top: 10%;
+    left: 50%;
+    width: 90%;
+    font-size: 15px;
+    transform-origin: top;
+    transition: all 0.3s ease-in-out
+}
+#nav-bar ul {
+    background-color: white;
+    list-style-type: none;
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    /* border: 0.5px solid grey; */
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.2);
+}
+#nav-bar li a {
+    /* display: flex; */
+    display: block;
+    color: black;
+    text-align: start;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+#nav-bar li a:hover {
+    background-color: rgb(225, 225, 225);
+}
+header .icon{
+    /* display: none; */
+    display: block;
+    align-content: center;
+    padding: 5px;
+    margin-right: 25px;
+}
+#menu.fa-bars{
+    font-size: 30px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+#menu.fa-close{
+    font-size: 30px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(-90deg);
+}
+
+#nav-bar.navbar-toggle{
+    display: block;
+    transform: translate(-50%, 0%);
+}
+
+
+/* .material-symbols-outlined {
+    font-size: 30px !important;
+    color: black;
+} */
+
+/* HERO STYLING */
+#hero{
+    background-color: #C3E1FF;
+    display: flexbox;
+    text-align: center;
+    padding: 25px 100px;
+}
+#hero-title{
+    padding: 30px 0 0px 0;
+}
+#hero-title h1{
+    font-size: 35px;
+}
+#hero-desc{
+    padding: 30px 0 20px 0;
+}
+#hero-img-box{
+    padding: 15px 0px 30px 0px;
+    background-color:  #C3E1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-img{
+   width: 75%;
+}
+#hero-button button{
+    background-color: rgba(255, 255, 255);
+    border: 1.5px solid rgb(0,0,0);
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+#hero-button button:hover{
+    box-shadow: 0px 0px 8px 3px rgb(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+/*  */
+/*  */
+/* FEATURES 1 CSS */
+#feature-1-wrap{
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#feature-1{
+    display: grid;
+    gap: 25px;
+    text-align: start;
+    background-color: white;
+    padding: 25px 25px 10px 25px;
+}
+#feature-1 h2{
+    font-size: 30px;
+}
+#feature-list{
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#check{
+    display: flex;
+    gap: 8px;
+}
+.fa-check{
+    color: #2ad257;
+    font-size: 20px;
+}
+#img-feature-1{
+    width: 60%;
+}
+#img-feature{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+/* VIDEO BOX */
+#video-box-wrapper{
+    padding: 0px 25px;
+}
+#video-box{
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+#video-box #video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* SPONSOR */
+#sponsor{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 30px;
+}
+#logo-sponsor img{
+   height: 4rem;
+}
+/* Feature 2 */
+#feature-2-wrap{
+    background-color: white;
+    display: grid;
+    gap: 25px;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#feature-2{
+    display: grid;
+    text-align: center;
+    gap: 15px;
+}
+#feature-2-content{
+    display: grid;
+    gap: 6px;
+}
+#feature-2-logo{
+    font-size: 30px;
+    color:black;
+}
+/* FONT CONTENT */
+#font-content{
+    background-color: white;
+    display: grid;
+    text-align: center;
+    gap: 50px;
+    padding: 30px 30px;
+}
+#font-img{
+    width: 75%;
+}
+
+/* PRICING  */
+#pricing-wrap{
+    background-color: white;
+    display: grid;
+    gap: 30px;
+    text-align: center;
+    padding: 30px 0px;
+}
+#pricing-title{
+    display: grid;
+    gap: 15px;
+}
+#pricing-box-wrap{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#price-box{
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    display: grid;
+    gap: 15px;
+    padding: 25px 25px;
+    width: 300px;
+}
+#price-box h3{
+    font-size: 23px;
+}
+#price-box #price-package{
+    padding: 30px 0px 10px 0px;
+    font-size: 28px;
+    font-weight: 500;
+}
+#price-box #price-package span{
+    font-size: 15px;
+}
+#price-box #price-context{
+    text-align: start;
+    display: grid;
+    gap: 10px;
+    padding: 1px 0px 20px 0px;
+    font-size: 15px;
+}
+#price-box #price-context #price-context-list{
+    display: flex;
+    gap: 10px;
+}
+#price-button button{
+    background-color: rgba(255, 255, 255);
+    border: 1.5px solid rgb(0,0,0);
+    padding: 10px 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 0.2s ease-in-out;
+}
+#price-button button:hover{
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Contact Form */
+#contact-form{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px 30px 30px;
+}
+#form-wrapper{
+    background-color: rgba(0, 0, 0, 0.059);
+    text-align: center;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 3px;
+}
+#form-wrapper h2{
+    padding-bottom: 10px;
+}
+#form-wrapper p{
+    padding-bottom: 10px;
+}
+#form-wrapper #get-started{
+    margin-bottom: 15px;
+    padding: 7px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+#form-wrapper #get-started:hover{
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+#form-wrapper #form #email{
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    width: 65%;
+    border: none;
+}
+
+#form-wrapper #form #submit{
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+#form-wrapper #form #submit:hover{
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+/* Footer */
+#footer{
+   background-color: #F6936C;
+   display: flex;
+   padding: 25px;
+   justify-content: space-between;
+   color: white;
+}
+
+#footer #footer-left{
+    display: grid;
+    gap: 10px;
+    
+}
+#footer #footer-left p{
+    color: white;
+}
+#footer #footer-left a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+#footer #footer-left #left-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Input  */
+input:focus-visible{
+    border-radius: 3px;
+    outline: none;
+}
+
+/* RESPONIVE FOR TABLET */
+
+@media only screen and (min-width: 768px){
+    /* HEADER */
+    #header{
+        padding: 15px 65px;
+    }
+    #header .icon{
+        display: none;
+    }
+    #nav-bar{
+        position: relative;
+        transform: none;
+        top: none;
+        left: auto;
+        width: auto;
+        font-size: 15px;
+        transform-origin: none;
+        transition: all 0.3s ease-in-out;   
+        display: flex;
+    }
+    #nav-bar li a {
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: start;
+        padding: 20px 25px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #nav-bar ul {
+        background-color: #ffffff00;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        box-shadow: none;
+    }
+    #nav-bar li a:hover {
+        background-color: #C3E1FF;
+        text-decoration: underline;
+        color: rgb(73, 72, 72);
+    }
+    /* HERO */
+    #wrap-hero{
+        background-color: #C3E1FF;
+        display: flex;
+        padding: 10px 55px 35px 55px;
+        justify-content: space-evenly;
+    }
+    #hero{
+        background-color: #C3E1FF;
+        display: grid;
+        text-align: start;
+        align-items: center;
+        align-self: center;
+        padding: 25px 25px;
+    }
+    #hero h1{
+        font-size: 35px;
+    }
+    #hero-img-box{
+        background-color: #C3E1FF;
+        text-align: center;
+        align-self: center;
+        width: 40%;
+    }
+    #hero-img{
+        width: 100%;
+     }
+     /* Feature */
+     #feature-1-wrap{
+        padding:  10px 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+
+     }
+     #feature-1{
+        gap: 35px;
+        background-color: rgb(255, 255, 255);
+        padding: 50px 50px 50px 0px;
+        align-self: center;
+        width: 50%;
+    }
+    #img-feature{
+        background-color: #ffffff;
+        text-align: center;
+        align-self: center;
+        width: 50%;
+    }
+    #feature-list{
+        justify-content: start;
+    }
+    /* VIDEO BOX */
+    #video-box-wrapper{
+        padding: 50px 80px;
+    }
+    /* SPONSOR */
+    #sponsor{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 60px;
+    }
+    #logo-sponsor img{
+        height: 70px;
+    }
+    /* Feature 2 */
+    #feature-2-wrap{
+        display: flex;
+        gap: 25px;
+        padding: 30px 55px;
+    }
+    #feature-2{
+        gap: 25px;
+        text-align: start;
+    }
+    #feature-2-content{
+        gap: 20px;
+    }
+    #feature-2-content p{
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    #feature-2-logo{
+        font-size: 25px;
+    }
+    /* FONT CONTENT */
+    #font-content{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        text-align: end;
+        align-items: center;
+        gap: 0;
+        padding: 20px 50px;
+    }
+    #font-content-title{
+        text-align: start;
+    }
+    #font-img{
+        background-color: rgb(255, 255, 255);
+        width: 75%;
+    }
+    /* Pricing */
+    #pricing-wrap{
+        padding: 30px 60px;
+    }
+    /* Contact Form */
+    #contact-form{
+        padding: 30px 80px ;
+    }
+}
+/* RESPONIVE FOR Desktop */
+
+@media only screen and (min-width: 1200px){
+    /* HEADER */
+    #header{
+        padding: 15px 200px;
+    }
+    /* HERO */
+    #wrap-hero{
+        padding: 10px 200px 35px 200px;
+        justify-content: space-between;
+        
+    }
+    #hero{
+        width: 40%;
+    }
+    #hero h1{
+        font-size: 45px;
+    }
+    /* Feature */
+    #feature-1-wrap{
+        padding:  20px 200px;
+        justify-content: space-between;
+    }
+     #feature-1{
+        width: 70%;
+    }
+    #feature-1 h2{
+        font-size: 45px;
+    }
+    #img-feature{
+        width: 100%;
+    }
+    #feature-list{
+        justify-content: start;
+        gap: 25px;
+    }
+    /* VIDEO BOX */
+    #video-box-wrapper{
+        padding: 50px 200px;
+    }
+    #video-box{
+        /* padding-bottom: 56.25%; */
+        padding-bottom: 40%;
+    }
+    /* SPONSOR */
+    #sponsor{
+        padding: 60px 200px;
+        justify-content: space-between;
+    }
+    /* Feature 2 */
+    #feature-2-wrap{
+        padding: 30px 200px;
+    }
+    /* FONT CONTENT */
+    #font-content{
+        padding: 30px 200px;
+    }
+    #font-content-title{
+        font-size: 25px;
+    }
+    #font-img{
+        width: 100%;
+    }
+    /* Pricing */
+    #pricing-wrap{
+        padding: 30px 200px;
+    }
+    #pricing-title h1{
+        font-size: 35px;
+    }
+    /* Contact Form */
+    #contact-form{
+        padding: 30px 300px ;
+    }
+    #form-wrapper{
+        padding-top: 35px ;
+        padding-bottom: 35px ;
+    }
+}
+
+
+

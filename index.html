@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="landing_page_script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <!-- LOGO -->
+        <div id="logo">
+            <img src="https://files.umso.co/lib_vTEzJimVXxumhPgG/df5gevp4hugsm8jx.svg?w=50" alt="logo" 
+            id="header-img">
+            &nbsp; &nbsp;
+            <h1>Logo</h1>
+        </div>
+        
+        <nav id="nav-bar">
+            <ul>
+                <li ><a class="nav-link" href="#feature-1-wrap">Features</a></li>
+                <hr>
+                <li ><a class="nav-link" href="#pricing-wrap">Pricing</a></li>
+                <hr>
+                <li ><a class="nav-link" href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <span id= "menu" class="fa fa-bars">
+            </span>
+        </div>
+        <script>
+         hideNabBar()
+        </script>
+    </header>
+    <div id="wrap-hero" class="wrap-hero">
+        <div id="hero" class="hero">
+            <div id="hero-title">
+                <h1>Get Started With Your Product</h1>
+            </div>
+            <div id="hero-desc">
+                <p>Use this section to point out how your product works and why it is different</p>
+            </div>
+            <div id="hero-button">
+            
+                <button href = "" >
+                    <span class="fa fa-download"></span>
+                    &nbsp;
+                    Download
+                </button>
+            </div>
+        </div>
+        <div id="hero-img-box">
+            <img id="hero-img" src="assets/images/hero.png" alt="Hero Picture">
+        </div>
+    </div>
+    <div id="sponsor" class="sponsor">
+        <div id="logo-sponsor"> <img src="https://logos-world.net/wp-content/uploads/2020/04/Adidas-Logo-1967-present.png" alt="adidas"></div>
+        <div id="logo-sponsor"> <img src="https://assets.stickpng.com/thumbs/5cb78668a7c7755bf004c14a.png" alt="tiktok"></div>
+        <div id="logo-sponsor"> <img src="https://www.gran-turismo.com/gtsport/decal/6989671286844720128_1.png" alt="lbwk"></div>
+        <div id="logo-sponsor"> <img src="https://logos-world.net/wp-content/uploads/2020/11/Logitech-Symbol.png" alt="logitech"></div>
+        <div id="logo-sponsor"> <img src="https://1000logos.net/wp-content/uploads/2020/03/Nissan-Logo-1989.png" alt="nissan"></div>
+    </div>
+    <div id="feature-1-wrap">
+        <div id="feature-1" class="feature-1">
+            <h2>Show your great Feature</h2>
+            <p>Use this section to show off one of your features in great detail.</p>
+            <div id = "feature-list">
+                    <div id="check"><i class="fa fa-check"></i>Looks great</div>
+                    <div id="check"><i class="fa fa-check"></i>Easy to use </div>
+                    <div id="check"><i class="fa fa-check"></i>Try it yourself!</div>
+            </div>
+        </div>
+        <div id="img-feature">
+            <img id="img-feature-1" src="assets/images/hero.png" alt="Hero Picture">
+        </div>
+    </div>
+    <div id="video-box-wrapper">
+       <div id="video-box">
+            <iframe referrerpolicy="no-referrer-when-downgrade" 
+            src="https://www.youtube.com/embed/pa0ts6H1sJI" frameborder="0" id="video"></iframe>
+        </div> 
+    </div>
+    <div id="feature-2-wrap">
+        <div id="feature-2">
+            <div id="feature-2-logo" class="material-symbols-outlined">headphones</div>
+            <div id="feature-2-content">
+                <h3>Feature One</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div>
+        <div id="feature-2">
+            <div id="feature-2-logo" class="material-symbols-outlined">folder</div>
+            <div id="feature-2-content">
+                <h3>Feature Two</h3>
+                <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+        </div>
+        <div id="feature-2">
+            <div id="feature-2-logo" class="material-symbols-outlined">upload</div>
+            <div id="feature-2-content">
+                <h3>Feature Three</h3>
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+            </div>
+        </div>
+    </div>
+    <div id="font-content">
+        <div id="font-content-title">
+            <h1>Show your Motto and Greatest Quotes</h1>
+        </div>
+        <div id="font-content-img">
+            <img id="font-img" src="assets/images/hero.png" alt="Hero Picture">
+        </div>
+    </div>
+    <div id="pricing-wrap">
+        <div id="pricing-title">
+            <h1>Simple, transparent pricing.</h1>
+            <p>Always know what you'll Pay</p>
+        </div>
+        <div id="pricing-box-wrap">
+            <div id="price-box">
+                <h3>Small</h3>
+                <p>This layout looks best with 2-3 tiers.</p>
+
+                <div id="price-package">RM49<span>/mo</span></div>
+
+                <div id="price-context">
+                    <div id="price-context-list"><i class="fa fa-check"></i>Your great feature</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>Another important thing</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>You can add many more</div>
+                </div>
+
+                <div id="price-button">
+                    <button href = "" >Download</button>
+                </div>
+            </div>
+            <div id="price-box">
+                <h3>Growth</h3>
+                <p>If you have more tiers or lots of features, try the table.</p>
+
+                <div id="price-package">RM99<span>/mo</span></div>
+
+                <div id="price-context">
+                    <div id="price-context-list"><i class="fa fa-check"></i>Your great feature</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>Another important thing</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>You can add many more</div>
+                </div>
+                
+
+                <div id="price-button">
+                    <button href = "" >Download</button>
+                </div>
+            </div>
+            <div id="price-box">
+                <h3>Large</h3>
+                <p>You can set the color of these boxes in the Tier BG settings.</p>
+
+                <div id="price-package">RM199<span>/mo</span></div>
+
+                <div id="price-context">
+                    <div id="price-context-list"><i class="fa fa-check"></i>Your great feature</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>Another important thing</div>
+                    <div id="price-context-list"><i class="fa fa-check"></i>You can add many more</div>
+                </div>
+                
+
+                <div id="price-button">
+                    <button href = "" >Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-form">
+        <div id="form-wrapper">
+            <h2>Ready to get started?</h2>
+            <p>Contact us or sign up now.</p>
+            <button id="get-started">Get Started</button>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+                <button type="submit" id="submit" class="submit-button">
+                    Contact
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-left">
+            <p>© 2023 My Company</p>
+            <div id="left-link">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
